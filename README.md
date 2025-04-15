@@ -1,4 +1,4 @@
-# Project is work in progress. Implementing the business case below for learning opportunity.
+# Project is work in progress. Implementing the business case below for learning opportunity for GO.
 
 ## Bank X Application
 
