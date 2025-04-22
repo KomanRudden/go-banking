@@ -1,0 +1,41 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.out
+
+# Dependency directories
+vendor/ # If not using Go modules
+
+# Build files and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Test and coverage files
+*.test
+*.cov
+*.cover
+coverage.out
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Go modules specific
+go.sum
+

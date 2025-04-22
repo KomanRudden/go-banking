@@ -9,6 +9,7 @@ import (
 	"regexp"
 	"time"
 
+	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 )
@@ -50,6 +51,7 @@ func main() {
 	// The `gin.Default()` function initializes a new Gin router instance with default middleware
 	// (Logger and Recovery).
 	r := gin.Default()
+	r.Use(cors.Default())
 
 	// Define routes
 	r.POST("/api/customers", createCustomer)
